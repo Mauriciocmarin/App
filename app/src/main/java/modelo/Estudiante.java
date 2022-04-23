@@ -8,6 +8,8 @@ public class Estudiante {
     private String direccion ;
     private String telefono ;
     private int edad ;
+    private String correo;
+    private String clave;
 
 
     public Estudiante(){
@@ -17,23 +19,38 @@ public class Estudiante {
         this.direccion = "";
         this.telefono = "";
         this.edad = 0;
+        this.correo = "";
+        this.clave = "";
     }
 
-    public Estudiante(String nombre, String apellido, String direccion, String telefono, int edad) {
+    public Estudiante(String nombre, String apellido, String direccion, String telefono, int edad , String correo , String clave) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
         this.telefono = telefono;
         this.edad = edad;
+        this.correo = correo;
+        this.clave = clave;
     }
 
-    public Estudiante(long id, String nombre, String apellido, String direccion, String telefono, int edad) {
+    public Estudiante(long id, String nombre, String apellido, String direccion, String telefono, int edad , String clave) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
         this.telefono = telefono;
         this.edad = edad;
+        this.correo = correo;
+        this.clave = clave;
+
+    }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public void setClave(String clave) {
+        this.clave = clave;
     }
 
     public long getId() {
@@ -82,5 +99,13 @@ public class Estudiante {
 
     public void setEdad(int edad) {
         this.edad = edad;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 }
