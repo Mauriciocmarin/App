@@ -20,8 +20,9 @@ public class LoginActivity extends AppCompatActivity {
         // pasar de un pantalla a otra  donde estoy para donde voy
         Intent intension = new Intent(LoginActivity.this,RegistroActivity.class);
 
-        //ejecuto la intension de una pantalla a otro
+        //ejecuto la intension de una pantalla a otro.
         startActivity(intension);
+
 
     }
 
