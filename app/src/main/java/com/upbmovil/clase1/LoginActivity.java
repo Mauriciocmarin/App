@@ -12,11 +12,11 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Registar();
+
 
     }
 
-    private void Registar (){
+    public void Registar (View v){
         // pasar de un pantalla a otra  donde estoy para donde voy
         Intent intension = new Intent(LoginActivity.this,RegistroActivity.class);
 
