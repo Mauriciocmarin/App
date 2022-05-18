@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void Registar (View v){
+    public void registar (View v){
         // pasar de un pantalla a otra  donde estoy para donde voy
         Intent intension = new Intent(LoginActivity.this,RegistroActivity.class);
 

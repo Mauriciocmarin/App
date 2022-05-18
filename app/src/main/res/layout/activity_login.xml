@@ -12,12 +12,12 @@
         android:layout_height="175dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="296dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.558"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/txtUsuario"
@@ -62,7 +62,7 @@
             android:id="@+id/button9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Registar"
+            android:onClick="registar"
             android:text="Registrar " />
 
         <TextView
@@ -83,9 +83,8 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
-        android:layout_marginTop="127dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="291dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

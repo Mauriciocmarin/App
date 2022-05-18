@@ -16,11 +16,12 @@ public class PresentacionActivity extends AppCompatActivity {
 
     }
 
+
     private void pasarPantalla() {
-        CountDownTimer contador = new CountDownTimer(1000, 1000) {
+        CountDownTimer contador = new CountDownTimer(2000, 1000) {
             @Override
             public void onTick(long l) {
-
+                // por intervalos
             }
 
             @Override
